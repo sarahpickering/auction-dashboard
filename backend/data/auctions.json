@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "address": "123 Main St, Phoenix, AZ",
+    "startingBid": 150000,
+    "finalBid": 182500,
+    "bidsCount": 14,
+    "zip": "85032",
+    "auctionDate": "2025-03-01"
+  }
+]
