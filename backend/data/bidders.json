@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "auctionId": 1,
+    "name": "John Smith",
+    "registered": true,
+    "placedBid": true,
+    "location": "Phoenix"
+  },
+  {
+    "id": 2,
+    "auctionId": 1,
+    "name": "Maria Lopez",
+    "registered": true,
+    "placedBid": false,
+    "location": "Scottsdale"
+  }
+]
