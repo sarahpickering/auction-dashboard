@@ -43,4 +43,6 @@ app.post("/api/surveys", (req, res) => {
 
 
 const PORT = 5000;
-app.listen(POR
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
