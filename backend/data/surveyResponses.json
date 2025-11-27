@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "auctionId": 1,
+    "didBid": false,
+    "reason": "Price went higher than expected",
+    "overallExperience": 4
+  },
+  {
+    "id": 2,
+    "auctionId": 1,
+    "didBid": false,
+    "reason": "Didn't feel ready",
+    "overallExperience": 5
+  }
+]
