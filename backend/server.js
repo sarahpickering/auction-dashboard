@@ -21,10 +21,10 @@ app.get("/api/surveys", (req, res) => {
 
 // Submit a new survey response
 app.post("/api/surveys", (req, res) => {
-  const newResponse = req.body;
+  const { auctionId, didBid, reason, overallExperience } = req.body;
 
-  if (!newResponse || Object.keys(newResponse).length === 0) {
-    return res.status(400).json({ error: "Missing survey response data" });
+  if (!auctionId || overallExperience == null) {
+    return res.status(400).json({ error: "Missing required fields" });
   }
 
   surveyResponses.push(newResponse);
