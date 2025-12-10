@@ -41,6 +41,9 @@ app.post("/api/surveys", (req, res) => {
   });
 });
 
+app.get('/health', (req, res) => {
+  res.json({ status: 'ok', timestamp: new Date().toISOString() });
+});
 
 const PORT = 5000;
 app.listen(PORT, () => {
