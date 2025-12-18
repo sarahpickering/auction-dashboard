@@ -18,7 +18,7 @@ const surveyResponses = require("./data/surveyResponses.json");
 
 // Get all auctions
 app.get("/api/auctions", (req, res) => {
-  res.json(auctions);
+  res.json(auctions.sort((a, b) => a.id - b.id));
 });
 
 // Get all survey responses
