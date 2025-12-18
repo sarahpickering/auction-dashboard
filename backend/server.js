@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
   res.send("Auction Dashboard API is running");
 });
 
-
+// Dummy data used for local development and testing
 const auctions = require("./data/auctions.json");
 const surveyResponses = require("./data/surveyResponses.json");
 
