@@ -8,6 +8,11 @@ app.use(cors({
   origin: "http://localhost:3000"
 }));
 
+app.get("/", (req, res) => {
+  res.send("Auction Dashboard API is running");
+});
+
+
 const auctions = require("./data/auctions.json");
 const surveyResponses = require("./data/surveyResponses.json");
 
