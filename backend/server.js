@@ -5,6 +5,8 @@ const cors = require("cors");
 const app = express();
 
 app.use(express.json());
+
+// Enable CORS for local frontend development
 app.use(cors({
   origin: "http://localhost:3000"
 }));
